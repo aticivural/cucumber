@@ -20,6 +20,7 @@ repositories {
 dependencies {
     testImplementation "io.cucumber:cucumber-java:${cucumberVersion}"
     testImplementation "io.cucumber:cucumber-junit:${cucumberVersion}"
+    testImplementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.0'
 
     testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
